@@ -109,6 +109,7 @@ pub mod extensions {
     pub mod consolidate;
     pub mod namestore;
     pub mod rgp;
+    pub mod rgp_poll;
 }
 
 pub mod host {

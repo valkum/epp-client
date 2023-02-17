@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <response>
+        <result code="1301">
+            <msg>Command completed successfully; ack to dequeue</msg>
+        </result>
+        <msgQ count="1" id="3366635">
+            <qDate>2023-02-05T08:00:08Z</qDate>
+            <msg>Restore Request Pending</msg>
+        </msgQ>
+        <resData>
+            <rgp-poll:pollData xmlns:rgp-poll="http://www.verisign.com/epp/rgp-poll-1.0">
+                <rgp-poll:name>eppdev-transfer.com</rgp-poll:name>
+                <rgp-poll:rgpStatus s="pendingRestore" />
+                <rgp-poll:reqDate>2023-01-31T17:21:04Z</rgp-poll:reqDate>
+                <rgp-poll:reportDueDate>2023-02-07T17:21:04Z</rgp-poll:reportDueDate>
+            </rgp-poll:pollData>
+        </resData>
+        <trID>
+            <clTRID>cltrid:1626454866</clTRID>
+            <svTRID>RO-6879-1627224678242975</svTRID>
+        </trID>
+    </response>
+</epp>
